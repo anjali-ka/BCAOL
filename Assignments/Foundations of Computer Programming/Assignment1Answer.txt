@@ -1,0 +1,119 @@
+Q1. C language has been developed by ________________
+Ans: b) Dennis Ritchie
+Q2. C can be used on _____________________
+Ans: d) All the above
+Q3. C programs are converted into machine language with the help of _______________
+Ans: b) A compiler
+Q4. Which of the following statements is false?
+Ans: a) Each new C instruction has to be written on a separate line
+Q5. Which of the following shows the correct hierarchy of arithmetic operators in C ________.
+Ans: d) / or *, - or +
+Q6. The expression, a = 30 * 1000 + 2768; evaluates to ______________.
+Ans: a) 32768
+Q7. Which of the following is FALSE in C?
+Ans: a) Keywords can be used as variable names
+Q8. In C, Arithmetic instruction cannot contain ___________.
+Ans: d) constants on left side of =
+Q9. A C program can execute without the main() function?
+Ans: c) Partially True
+Q10. A _____________ statement takes the execution control out of the loop.
+Ans: a) break
+Q11. The three type of loops available in C are for, while, and ___________.
+Ans: c) do-while
+Q12. The ++ operator increments the operand by ___________.
+Ans: b) 1
+Q13. A do-while loop is useful when we want that the statements within the loop must be executed _______________.
+Ans: b) At least once
+Q14. In what sequence the initialization, testing and execution of body is done in a do-while loop 
+Ans: a) Initialization, execution of body, testing
+Q15. When we need to choose one among number of alternatives, a __________ statement is used.
+Ans: d) switch
+Q16. A C program can contain ____________main functions.
+Ans: a) Only 1
+Q17. Comments are ________________ by the compiler.
+Ans: a) Avoided
+Q18. If a is an integer variable, a = 5 / 2 ; will return a value _________
+Ans: c) 2
+Q19. What will be the output of the following code?\
+void main( ) 
+{ 
+  int a, b ; 
+  a = 3 - 3 ; 
+  b = -3 - - ( - 3 ) ; 
+ printf ( "a = %d b = %d", a, b ) ; 
+} 
+Ans: c) 0, -6
+Q.20 Files included in a C program with .h extension are called as ____________
+Ans: b) Header Files
+
+
+
+Q1. Why and when do we use the #include directive?
+Ans: The #include directive is a preprocessor directive. 
+It's used to add the contents of a header file into a code file 
+before compilation.
+This makes the functions and definitions from the include file available
+in the current source code file.
+
+Q2. Why do we need to use comments in programs?
+Ans: Comments are needed to make code easier for human to understand.
+Comments are ignored by compiler so we can write anything in that.
+
+Q3. Explain the process of transforming source code to .exe of a C program.
+Ans: 
+
+Q4. Explain the datatypes used in C language.
+Ans: 
+
+Q5. What is initialization? Why is it important?
+Ans: Initialization is defining variable or constant values 
+that will be used in code for further execution of program.
+It is used when we want variable to have some initial value.
+
+Q6. Write a C program to print your Name, Age, Date of Birth and Address. Every information should be printed in a new line.
+Ans: 
+#include <stdio.h>
+
+int main() {
+    printf ("Name: %s\n", "Alpha Beta");
+    printf ("Age: %d\n", 21);
+    printf ("Date of Birth: %s\n", "1995-10-23");
+    printf ("Address: %s\n", "123 Somewhere in India");
+
+    return 0;
+}
+
+Q7. Write a C program to find the sum, minus, product and division of two numbers.
+Ans: 
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    a = 6;
+    b = 2;
+    printf ("Sum: %d\n", (a + b));
+    printf ("Minus: %d\n", (a - b));
+    printf ("Product: %d\n", (a * b));
+    printf ("Division: %.2f\n", (a / (float)b));
+
+    return 0;
+}
+
+Q8. Write a C program to find the factorial of a given number.
+Ans: 
+#include <stdio.h>
+
+int main() {
+    int a;
+    int f = 1;
+    
+    printf ("Enter the numbers to find factorial: \n");
+    scanf("%d", &a);
+    
+    for (int i = 1; i <= a; i++) {
+        f = f * i;
+    }
+    printf ("Factorial of %d is: %d\n", a, f);
+
+    return 0;
+}
