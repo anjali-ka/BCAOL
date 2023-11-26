@@ -1,0 +1,97 @@
+Q1. What is computational thinking?
+Ans. C)	An approach to problem solving using computer science techniques
+
+Q2. What is the difference between "data" and "information"?
+Ans. B)	Data is processed by computers, while information represents real-world quantities
+
+Q3. What is the Nyquist-Shannon sampling theorem related to?
+Ans. C)	Digital audio sampling
+
+Q4. What is the purpose of pseudocode in programming?
+Ans. B)	To outline the sequence of steps in a program without strict syntax rules.
+
+Q5. What is the purpose of a flowchart?
+Ans. B)	To communicate the program logic visually
+
+Q6. What is an algorithm?
+Ans. B)	A defined set of step-by-step procedures for solving a problem
+
+Q7. What is the advantage of using flowcharts for program development?
+Ans. D)	All of the above
+
+Q8. Which drawback is associated with the use of algorithms?
+Ans. D)	All of the above
+
+Q9. ________ is an electronic device that stores data and process data by converting it into information that is useful to people.
+Ans. A)	Computer
+
+Q10. The result of the process and computation is displayed on the _______ devices.
+Ans. A)	Output
+
+
+
+Q1. Interpret how Computational Thinking is used.
+Ans. Computation Thinking can be used in following ways:
+a. Problem Solving: It helps break down complex problems into smaller, 
+more managable parts, enabling indivisuals to develop efficient 
+algorithms to find solution.
+b. Computer Programming: Programmers use algorithms and logical reasoning 
+to design code that can efficiently execute specific tasks or solve problems.
+c. Data Analysis: It involves identifying patterns, trends and insights 
+to make informed decisions.
+d. Artificial Intelligence and Machine Learning: It helps researches and 
+engineers design intelligent systems that can learn and adapt form data.
+e. System Design: It ensures that the system functions optimally and 
+handles potential challenges.
+f. Robotics and Automation: It enables them to perform specific tasks 
+accurately and efficiently.
+g. Computational Creativity: It can be used to generate algorithms that 
+create novel and innovative works.
+h. Problem Identification: It aids in identifying problems and inefficiencies 
+in various processes, leading to opportunities for improvement and optimization.
+i. Game Development: It helps to design game mechanics, AI behaviours and 
+interactive elements that enhance gaming exeprience.
+j. Educational Tool: It is incorporated into educational curricula to teach 
+students critical thinking, logic and problem-solving skills.
+k. Internet of Things (IoT): It is used to connect and control smart devices, 
+allowing them to communicate and interact seamlessly.
+l. Simulation and Modeling: It is used to create simulations and models 
+in scientific research, engineering and social sciences, enabling the study 
+of complex systems and scenarios.
+
+Q2. Explain classic puzzle solving.
+Ans. The solver of a puzzle must arrive at the correct answer or answers 
+by thinking or putting pieces together in a logical way.
+
+Q3. Summarize the general Problem Solving Techniques.
+Ans. 
+
+Q4. State the definition of a flowchart.
+Ans. A flowchart is a visual depiction of the steps or procedures involved 
+in a program or system. It presents a graphical representation of the 
+control and data flow across various stages, decisions and actions.
+
+Q5. Illustrate the characteristics of an algorithm.
+Ans. Characterstics of a well-defined algorithm include the ability to 
+accepts inputs, unambiguousness in each step or operation, feasibility of 
+manual execution within a finite timeframe, termination with a solution, 
+and the generation of one or more outputs.
+
+Q6. Construct a flowchart and algorithm to find the sum of the first 10 integer numbers.
+Ans. Algorithm: 
+	Step 1: set count = 1, sum = 0
+	Step 2: Add the count to sum
+	Step 3: Increase count by one (count = count + 1)
+	Step 4: Check whether count is 11
+	Step 5: Check if count is 11 display sum else goto step 2
+	
+Flow Chart: 
+	check image: FlowChart_Q6.png
+
+Q7. Discuss the various classification of a computer.
+Ans. Computers are classified into two ways based on their size and capacity for handling data.
+Size: Personal Computer, Minicomputer, Micorcomputer, Supercomputer and Mainframe
+Capacity: Digital Computer, Hybrid Computer, Analog Computer
+
+Q8. With a neat diagram explain the functional units of a computer.
+Ans. check image: FunctionalUnit_A1Q8.png
