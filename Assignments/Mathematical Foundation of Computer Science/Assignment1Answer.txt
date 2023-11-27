@@ -1,0 +1,135 @@
+Q1. If x is a set and the set contains an integer which is neither positive nor negative then the set x is ____________.
+Ans. D) Set is both Non- empty and Finite.
+
+Q2. If a relation R has the property that for every (a, b) in R, (b, a) is also in R, what type of relation is R?
+Ans. B) Symmetric
+
+Q3. What is a partial order relation?
+Ans. C) A relation that is reflexive, antisymmetric, and transitive
+
+Q4. In the principle of mathematical induction, find which of the following steps is mandatory?
+Ans. A) induction hypothesis
+
+Q5. According to principle of mathematical induction. If P(k+1)=m^(k+1)+5 is true then _____ must be true. 
+Ans. B) P(k)= m^k+5 
+
+Q6. If {1, 3, 5} and B = {1, 3, 5, 7} then A is a …. subset of B
+Ans. B) proper
+
+Q7. A----------- is a set S with a relation R on it which is reflexive, anti-symmetric, and transitive.
+Ans. D) Partially ordered set
+
+Q8. If every element in the domain is mapped to a unique element in the codomain, the function is said to be:
+Ans. A) One-to-one
+
+Q9. Which function is often used to round down a real number to the nearest integer?
+Ans. A) Floor function
+
+Q10. A function f: A → B is said to be …….. If for every y in B there exists at least one element  x in A such that f(x) = y.
+Ans. A) surjective
+
+
+
+
+
+Q1. Determine whether the relation R on the set of all Web pages is reflexive, symmetric, antisymmetric, and/or transitive, where (a,b) E R if and only if
+a) everyone who has visited Web page a has also visited Web page b .
+b) There are no common links found on both Web page a and Web page b.
+c) There is at least one common link on Web page a and Web page b.
+d) There is a Web page that includes links to both Web page a and Web page b.
+Ans. 
+
+Q2. Given f(x) = 2x and g(x) = x^2, find the composition g o f and evaluate if for x = 3.
+Ans.
+	f(x) = 2x
+	g(x) = x^2
+	
+	gof(x) = g(f(x)) = g(2x)
+	Given x = 3,
+	g(2 x 3) = g(6) = 6^2 = 36
+	
+	So, gof(3) = 36
+
+Q3. Write set builder notation to give a description of each of these sets.
+a) {0,3,6,9,12}
+b) {−3,−2,−1,0,1,2,3}
+c) {m,n,o,p}
+Ans. 
+a) {0,3,6,9,12}: {x: x is a muliple of 3, 0 <= x <= 12}
+b) {−3,−2,−1,0,1,2,3}: {x: x is an integer, -4 < x < 4}
+c) {m,n,o,p}: {x: x is letter m, n, o, p}
+
+Q4. Let X= {1, 2, 3, 4, 5} and relation R= {(x, y)/x>y}. Construct the graph of ‘R’ and also give its matrix.
+Ans. R = {(2, 1), (3, 1), (3, 2), (4, 1), (4, 2), (4, 3), (5, 1), (5, 2), (5, 3), (5, 4)}
+Matrix will be (1 if coordinate is present in above set)
+0, 0, 0, 0, 0 
+1, 0, 0, 0, 0 
+1, 1, 0, 0, 0 
+1, 1, 1, 0, 0 
+1, 1, 1, 1, 0 
+
+Q5. Use Mathematical Induction to show that 1^2+2^2+...+2^n = 2^(n+1)-1
+Ans. 
+	Step 1: For n = 0, 
+		LHS: [1^2] = 1
+		RHS: 2^(0 + 1) -1 = 2^0 = 1
+		
+		This is true.
+	Step2: For n = k, assume true.
+		1^2 + 2^2 + ... + 2^k = 2^(k+1)-1
+		
+	Step3: Now prove, n = k + 1 is true.
+		P(k + 1) = 1^2 + 2^2 + ... + 2^k + 2^(k+1)
+				 = 2^(k+1)-1 + 2^(k+1)
+				 = 2.2^(k+1)-1
+				 = 2^((k+1)+1)-1
+	
+	Therefore, by mathematical induction, the statement holds for all 
+	non-negative integers (n).
+	[1^2 + 2^2 + ... + 2^n = 2^(n+1)-1]
+
+Q6. Write the Procedure for Euclidean algorithm to calculate gcd of two numbers
+Ans. Input: Two natural numbers u and v with u > v
+	Output:
+		The greatest common divisor gcd(u, v) of u and v
+	Solution:
+		Repeat:
+			Let r = u mod v
+			Let u = v
+			Let v = r
+		Until r = 0
+		Return u
+
+Q7. Verify by mathematical induction,
+1^2 + 2^2 + ... + n^2=(n(n+1)(2n+1))/6
+Ans. 
+	Step 1: For n = 1, 
+		LHS: [1^2] = 1
+		RHS: (1(1+1)((2x1)+1))/6 = (1(2)(3))/6 = 6/6 = 1
+		
+		This is true.
+	Step2: For n = k, assume true.
+		1^2 + 2^2 + ... + k^2=(k(k+1)(2k+1))/6
+	Step3: Now prove, n = k + 1 is true.
+		P(k + 1) = 1^2 + 2^2 + ... + k^2 + (k+1)^2
+				 = (k(k+1)(2k+1))/6 + (k+1)^2
+				 = ((k(k+1)(2k+1)) + 6(k+1)^2) / 6
+				 = ((k+1)(k(2k+1) + 6(k+1))) / 6
+				 = ((k+1)(2k^2 + 7k + 6)) / 6
+				 = ((k+1)(k+2)(2(k+1)+1)) / 6
+
+Q8. Use the Euclidean algorithm to Compute the greatest common divisor of 46 and 21.
+Ans. Let u = 46 and v = 21
+	Let r = u mod v
+	Step 1: r = 46 % 21 = 4
+			u = v = 21
+			v = r = 4 (not equal to 0 goto next step)
+	Step 2: r = 21 % 4 = 1
+			u = v = 4
+			v = r = 1 (not equal to 0 goto next step)
+	Step 3: r = 4 % 1 = 0
+			u = v = 1
+			v = r = 0 (equal to 0 Stop)
+	
+	Answer is: 1
+	
