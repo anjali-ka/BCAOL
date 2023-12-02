@@ -1,0 +1,95 @@
+Q1. Communication is incomplete without which of the following?
+Ans. d. Feedback
+
+Q2. Which of the following is an example of verbal communication?
+Ans. d.	Speaking to someone
+
+Q3. What is the term for the distortion or interference that can affect the clarity of a message during communication?
+Ans. c.	Noise
+
+Q4. An example of external communication is:
+Ans. a.	Addressing the media
+
+Q5. What does ‘paralanguage’ refer to?
+Ans. b.	Non-verbal communication
+
+Q6. Which of the following is an example of a verbal barrier to effective communication?
+Ans. b)	Using jargons or technical language.
+
+Q7. Which of the following is an example of upward communication within an organization?
+Ans. d)	A company newsletter sent to all employees
+
+Q8. Which of the following is an example of a communication barrier related to culture?
+Ans. a)	Using formal language in a casual setting 
+
+Q9. Which type of communication is typically more formal and follows a predetermined structure or format?
+Ans. b)	Written communication
+
+Q10. Which of the following is an example of a non-verbal cue that can convey a negative message in communication?
+Ans. c)	Crossing one's arms
+
+
+
+
+Q1. Explain what business communication is. What are the salient features of this communication? How is it different from other communication?
+Ans. 
+
+Q2. Explain the 7Cs of communication with the help of examples.
+Ans. The seven C's of communication are set of principles designed to enhance the clarity and effectiveness of communication.
+They are:
+	1. Clearness: Instead of saying, "We need to cut costs" say, "To improve our financial situation, we must reduce unnecessary expenses"
+	2. Conciseness: Instead of lengthy email, a concise message like, 
+	"Please submit your reports by Friday for the upcoming meeting", is more effective.
+	3. Consideration: When giving feedback, consider the other person's feelings. 
+	Instead of saying "You're not meeting expectations" say, 
+	"I appreciate your efforts; let's discuss areas of improvement".
+	4. Concreteness: Instead of saying, "Improve your performance" be concrete: "Increase your sales by 10% in the next quarter."
+	5. Correctness: Ensure accuracy in written communication. An email with correct spelling, grammar and facts enhances crediblity.
+	6. Courtesy: Even in disagreement, maintain courtsey. Instead if saying "Your idea won't work" 
+	say, "I see your prespective; let's explore other options together."
+	7. Completeness: Provide all necessary information. Instead of saying, "I need your report", 
+	specify: "Please submit your quarterly sales report by 3PM on Friday."
+	
+	Applying the seven C's improves communication by making message clear, 
+	concise and considerate of the audience, leading to more effective and positive interactions.
+	
+Q3. Describe the communication process model, including its key elements such as sender, message, channel, receiver, feedback, and noise. How do these components interact to facilitate effective communication?
+Ans. 
+
+Q4. Describe verbal communication as one of the fundamental forms of human communication. How does it encompass spoken and written language?
+Ans. 
+
+Q5. Define formal communication within an organizational context. How does it typically follow established hierarchies and structures?
+Ans. 
+
+Q6. Distinguish between:
+(i) Formal and Informal Communication
+(ii) Verbal and Non-Verbal Communication 
+Ans. 
+i) Formal and Informal Communication:
+	FORMAL COMMUNICATION is defined as the communication in which the information is reached through proper channels or routes. It is also called official communication. The main aim of this communication is to properly converse and making sure that the information has reached correctly.
+	
+	INFORMAL COMMUNICATION is defined as communication that does not undertake formal methods to communicate. People converse freely without any bondage. Talking to friend or family is a common example of informal communication.
+	
+	Key Differences:
+	1. Flexiblity: Formal communication tends to be rigid and structured, following established guidelines, while informal communication is more flexible and adaptable.
+	2. Speed: Informal communication is faster due to its spontaneous nature, whereas formal communication may take longer, requiring approvals and adherence to structured processes.
+	3. Use of Channels: Formal communication relies on predetermined channels and official mediums, while informal communication can utilize various channels, both official and unofficial.
+	4. Purpose: The primary purpose of formal communication is to address organizational goals and tasks, while informal communication contributes to relationship-building and a positive work environment.
+	
+ii) Verbal and Non-Verbal Communication:
+	VERBAL COMMUNICATION is the use of language in spoken or written form of the excahange of information, ideas and emotions. It depends on words, syntax, grammar and vocabulary. It could be direct or indirect formal or informal.
+	
+	NON-VERBAL COMMUNICATION includes all types of communication without using words. It includes hand gestures, facial expression, eye contact, body language and voice tone.
+	
+	Key Differences:
+	1. Medium: Verbal communication uses words as the primary medium, while nonverbal communication relies on visual, auditory and tactile cues without using language.
+	2. Expression: Verbal communication is ideal for expressing complex ideas and conveying specific information. Nonverbal communication is more effective for expressing emotions, attitudes and building interpersonal connections.
+	3. Feedback: Verbal communication often allows for immediate and explicit feedback, while nonverbal cues may require more interpretation and may not provide direct feedback.
+	4. Clarity: Clarity is verbal communication depends on linguistic elements, while clarity in nonverbal communication relies on the sender's ability to convey emotions or intentions through gestures and expressions.
+
+Q7. What are the major barriers to communication in organizations? How can we overcome them?
+Ans. 
+
+Q8. Reflect on a personal or professional experience where noise hindered effective communication. How was the issue identified, and how was it addressed?
+Ans. 
