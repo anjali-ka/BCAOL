@@ -1,0 +1,298 @@
+Q1. ______ are not part of the executable code.
+Ans. A) Comments or Documentation Section
+
+Q2. Lines starting with # are processed by the __________.
+Ans. B) Preprocessor
+
+Q3. _________ function is used to read a single character from any standard input device.
+Ans. A) getchar()
+
+Q4. _________ function is used to write a single character to any standard output device.
+Ans. B) putchar()
+
+Q5. Once _______ are defined their values cannot be modified.
+Ans. A) literals
+
+Q6. ________ is an object or element that may change during the execution of the program.
+Ans. B) variables
+
+Q7. _______ data type stores double-precision floating-point numbers.
+Ans. D) double
+
+Q8. The _______ statement is also known as a one-way branch.
+Ans. A) if
+
+Q9. ____________ is generally used when we know the number of iterations in advance.
+Ans. A) For loop
+
+Q10. The condition is checked at the beginning (pre-test) itself, it is ____________.
+Ans. B) While Loop 
+
+Q11. The 2 types of goto jumps are ______ and ________.]
+Ans. A) Forward and reverse
+
+Q12. Which return type cannot return any value to the caller.
+Ans. C) void
+
+Q13. Memory is allocated for a function when the function is-_______________.
+Ans. C) called
+
+Q14. Variables declared inside a function are known as _________.
+Ans. A) Local
+
+Q15. By default, the return type of the function is _________.
+Ans. B) int
+
+Q16. To fetch the address of the variable we precede it with _________ sign before variable name.
+Ans. H) & -> Ampersand
+
+Q17. Pointer is _______________.
+Ans. G) a variable that stores address of other variables
+
+Q18. Null pointer and void pointer are the same.
+Ans. B) False
+
+Q19. The address stored in the pointer variable are of the type ______.
+Ans. E) Integer
+
+20. It is possible to omit the mention of the ______ of the array at the time of initialization.
+Ans. C) Size
+
+
+
+
+Q1. Write a program in C to read n number of values in an array and display it in reverse order.
+Ans. 
+#include <stdio.h>
+
+int main() {
+	int n;
+	
+	printf("Enter total number you want to read: ");
+	scanf("%d", &n);
+	
+	printf("Enter elements: \n");
+	int arr[n];
+	for (int i = 0; i < n; i++) {
+		scanf("%d", &arr[i]);
+	}
+	
+	printf("values in reverse order: \n");
+	for (int i = n - 1; i >= 0; i--) {
+		printf("%d", arr[i]);
+	}
+	
+	return 0;
+}
+
+Q2. Write a program in C to find the sum of all elements of the array.
+Ans. 
+#include <stdio.h>
+
+int main() {
+	int n;
+	
+	printf("Enter total number you want to perform sum for: ");
+	scanf("%d", &n);
+	
+	printf("Enter elements: \n");
+	int arr[n];
+	for (int i = 0; i < n; i++) {
+		scanf("%d", &arr[i]);
+	}
+	
+	int sum = 0;
+	for (int i = 0; i < n; i++) {
+		sum = sum + arr[i];
+	}
+	
+	printf("Sum is: %d\n", sum);
+	
+	return 0;
+}
+
+Q3. Write a program in C to search an element in a two dimensional array.
+Ans. 
+#include <stdio.h>
+
+int main() {
+    int rows, cols, searchElement;
+
+    printf("Enter lenght of rows and columns: ");
+    scanf("%d %d", &rows, &cols);
+
+    int arr[rows][cols];
+
+    printf("Enter elements\n");
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            scanf("%d", &arr[i][j]);
+        }
+    }
+
+    printf("Enter the element to search: ");
+    scanf("%d", &searchElement);
+
+    int found = 0;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            if (arr[i][j] == searchElement) {
+                printf("Element found at position (%d, %d)\n", i, j);
+                found = 1;
+                break;
+            }
+        }
+        if (found) {
+            break;
+        }
+    }
+
+    if (!found) {
+        printf("Element not found in the array.\n");
+    }
+
+    return 0;
+}
+
+Q4. Write a program in C using recursion and iteration concepts for factorial.
+Ans. 
+// Factorial using iteration.
+#include<stdio.h>
+
+int main() {
+
+	int i, fact = 1, number;
+
+	printf("Enter a number: ");
+	scanf("%d", &number);
+	
+	for(i=1;i<=number;i++) {
+		fact = fact * i;
+	}
+	
+	printf("Factorial of %d is: %d", number, fact);
+	
+	return 0;
+}
+
+// Factorial using recursion
+#include<stdio.h>
+
+long factorial(int n) {
+	if (n == 0)
+		return 1;
+	else
+		return(n * factorial(n-1));
+}
+
+void main() {
+	int number;
+	long fact;
+	
+	printf("Enter a number: ");
+	scanf("%d", &number);
+   
+	fact = factorial(number);
+	printf("Factorial of %d is %ld\n", number, fact);
+}
+
+Q5. Write a program to swap value of two variables using pointer.
+Ans. 
+#include <stdio.h>
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+    int num1, num2;
+
+    // Read two numbers
+    printf("Enter two values space seprated: ");
+    scanf("%d %d", &num1, &num2);
+
+    printf("Values before swapping: \n");
+    printf("Variable 1: %d\n", num1);
+    printf("Variable 2: %d\n", num2);
+
+    // Swapping values
+    swap(&num1, &num2);
+
+    // Display values after swapping
+    printf("\nValues after swapping: \n");
+    printf("Variable 1: %d\n", num1);
+    printf("Variable 2: %d\n", num2);
+
+    return 0;
+}
+
+Q6. Write a C program to demonstrate the concept of structures.
+Ans. 
+#include <stdio.h>
+
+struct Student {
+    char name[50];
+    int age;
+    float height;
+};
+
+int main() {
+    struct Student student1;
+
+    printf("Enter name: ");
+    scanf("%[^\n]s", &student1.name);
+
+    printf("Enter age: ");
+    scanf("%d", &student1.age);
+
+    printf("Enter height (in meters): ");
+    scanf("%f", &student1.height);
+
+    printf("\nPerson Information:\n");
+    printf("Name: %s\n", student1.name);
+    printf("Age: %d\n", student1.age);
+    printf("Height: %.2f meters\n", student1.height);
+
+    return 0;
+}
+
+Q7. Write a C program to delete a substring from a string.
+Ans. 
+#include <stdio.h>
+#include <string.h>
+
+// Function to delete substring from a string
+void deleteSubstring(char *str, const char *sub) {
+    int len = strlen(sub);
+    char *ptr;
+
+    // Find the first occurrence of the substring
+    while ((ptr = strstr(str, sub)) != NULL) {
+        // Shift characters to the left to delete the substring
+        memmove(ptr, ptr + len, strlen(ptr + len) + 1);
+    }
+}
+
+int main() {
+    char inputString[100], substring[50];
+
+    // Read the input string
+    printf("Enter a string: ");
+    fgets(inputString, sizeof(inputString), stdin);
+    inputString[strcspn(inputString, "\n")] = '\0'; // Remove newline character
+
+    // Read the substring to be deleted
+    printf("Enter the substring to delete: ");
+    fgets(substring, sizeof(substring), stdin);
+    substring[strcspn(substring, "\n")] = '\0'; // Remove newline character
+
+    // Call the function to delete the substring
+    deleteSubstring(inputString, substring);
+
+    // Display the modified string
+    printf("String after deleting '%s':\n%s\n", substring, inputString);
+
+    return 0;
+}
