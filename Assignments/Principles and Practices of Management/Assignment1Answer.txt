@@ -197,4 +197,21 @@ Here are key reasons:
 	10. Continuous Improvement: In the dynamic field of technology, organizations must plan for ongoing learning, skill development, and technology upgrades to stay competitive and innovative.
 
 Q8. What do you mean by organizing? Explain various steps involved in organizing.
-Ans. 
+Ans. Organising refers to the procedure of aligning the activities in a certain order. 
+It contains designing the roles and directing the people towards accomplishment of goals. 
+Human efforts along with the resources are brought together and coordinated under this function.
+
+The following steps are to be undertaken in the organising process.
+(i) Identification and Division of Work: The first step in the process of organising involves 
+identifying and dividing the work that has to be done in accordance with previously determined plans. 
+Work is divided into manageable tasks so that duplication can be avoided and workload can be shared among employees.
+(ii) Departmentalisation: Once, work has been divided into small and manageable activities, 
+then those activities which are similar in nature, are grouped together. 
+This process is called departmentalisation.
+(iii) Assignment of Duties: Once the departments are created, each department is placed 
+under the charge of an individual, called departmental head. Then, each job is allocated 
+to an individual, according to his knowledge and skill.
+(iv) Establishing Reporting Relationships: In the organisation, each employee has some authority 
+as well as responsibility. It is necessary that every individual must know whom he has to take orders 
+from and to whom he is answerable. This creates superior subordinate hierarchy and helps in 
+coordinating various activities in the organisation.
