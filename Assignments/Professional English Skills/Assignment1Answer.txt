@@ -31,8 +31,57 @@ Ans. c)	Crossing one's arms
 
 
 
-Q1. Explain what business communication is. What are the salient features of this communication? How is it different from other communication?
-Ans. 
+Q1. Explain what business communication is. What are the salient features of 
+this communication? How is it different from other communication?
+Ans. Business communication refers to the process of exchanging information 
+within and between organizations to facilitate business activities, convey messages 
+and achieve specific objectives. It involves various forms of communication, 
+including written, verbal and nonverbal interactions all within a professional context.
+
+Salient Features of Business Communication:  
+	1. Formality: Business communication is characterized by a formal tone. 
+	It adheres to professional standards, etiquette and often follows 
+	predefined structures in written documents, official emails 
+	and during business meetings.
+	2. Purposeful: Every instance of business communication serves a 
+	specific purpose aligned with organization goals. Whether it's 
+	conveying information, making decisions or negotiating business 
+	communication is goals-oriented.
+	3. Strucutred: Business communication is often structured and organized. 
+	Documents, reports and presentations follow a logical sequence to 
+	convey information clearly and coherently.
+	4. Multidirectional: Communication in a business setting occurs in 
+	multiple directions - upward, downward and lateral. It involves 
+	communication between different levels of the organizational hierarchy,,
+	ensuring a flow of information throughout the entire structure.  
+	5. Professionalism: This includes using appropriate language, 
+	maintaining a respectful tone and adhering to established norms 
+	and standards within the business environment.
+	6. Feedback-Oriented: Business communication encourages feedback. 
+	Organizations often seek input to enhance communication effectiveness 
+	and adheres any issues or concerns. Feedback can be verbal, nonverbal or written.
+	7. Legal Implications: Official documents, contracts and agreements 
+	require precision in language to ensure compliance and avoid legal issues.
+	
+	Difference from Other Communication:
+	1. Formality and Structure: Business communication tends to be more formal 
+	and structured compared to personal or casual communication. 
+	It often follows predefined formats and etiquette.
+	2. Objective Driven: Business communication is purpose-driven and goal-oriented. 
+	It focuses on achieving specific business objectives, such as conveying information, 
+	making decisions or negotiating deals.
+	3. Professional Tone: The tone of business communication is professional and objective. 
+	It prioritizes clear and concise expression without the personal or emotional elements 
+	that might be present in informal communication.
+	4. Hierarchy and Organization: Information flows through formal channels 
+	and the structure is often dictated by the reporting relationships 
+	within the organization.
+	5. Legal and Regulatory Considerations: Official documents, contracts and 
+	agreements require precise language to ensure compliance and avoid legal issues.
+	6. Multidirectional Flow: Business communication involves multi directional flow, 
+	encompassing communication from top to bottom, bottom to top and 
+	laterally within the organization. This multidirectional nature 
+	distinguishes it from one-way communication in personal interactions.
 
 Q2. Explain the 7Cs of communication with the help of examples.
 Ans. The seven C's of communication are set of principles designed to enhance the clarity and effectiveness of communication.
@@ -223,5 +272,6 @@ Ans. Major Barriers to Communication in Organizations:
 	effective writing, presentation, and interpersonal communication, can contribute to 
 	overcoming barriers. 
 
-Q8. Reflect on a personal or professional experience where noise hindered effective communication. How was the issue identified, and how was it addressed?
+Q8. Reflect on a personal or professional experience where noise hindered effective communication. 
+How was the issue identified, and how was it addressed?
 Ans. 
