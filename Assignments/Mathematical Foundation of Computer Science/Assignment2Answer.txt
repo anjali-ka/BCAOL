@@ -1,0 +1,65 @@
+Q1. What is probability theory primarily concerned with?
+Ans. B) Uncertain outcomes
+
+Q2. In probability theory, what does the term "random experiment" refer to?
+Ans. B) An experiment with unpredictable outcomes
+
+Q3. What is the set of all possible outcomes of a random experiment called?
+Ans. C) Sample space
+
+Q4. If two events cannot occur simultaneously, what is the term used to describe them?
+Ans. A) Mutually exclusive
+
+Q5. If event A and event B can both occur simultaneously, what is their relationship?
+Ans. D) Dependent
+
+Q6. Which method involves making a matrix upper triangular to find its determinant?
+Ans. A) Elimination method
+
+Q7. What is the sum of probabilities for all possible outcomes in a sample space?
+Ans. B) 1
+
+Q8. If P(A) is the probability of event A and P(B) is the probability of event B, what is P(A | B)?
+Ans. C) P(A and B) / P(B)
+
+Q9. If J is a 2x3 matrix and K is a 3x2 matrix, what is the order of the product JK?
+Ans. C) 2x2
+
+Q10. What is the formula for Bayes' Theorem?
+Ans. A) P(A | B) = P(B | A) * P(A) / P(B)
+
+
+
+
+Q1. If the probability of event A is 0.3, what is the probability of the complement of A?
+Ans. The probability of the complement of event A((A^c)) is foud by subtracting 
+the probability of A from 1. Therefore, if the probability of event A is 0.3,
+the probability of the complement of A is:
+
+P(A^c) = 1 - P(A) 
+P(A^c) = 1 - 0.3 
+P(A^c) = 0.7
+
+So the probability of complement of A is 0.7
+
+Q2. Given matrices F and G:
+Ans. 
+
+Q3. Consider two events A and B. If the probability of A is 0.4 and the probability of B is 0.6, what is the Law of Total Probability?
+Ans. 
+
+Q4. 
+Ans. 
+
+Q5. 
+Ans. 
+
+Q6. 
+Ans. 
+
+Q7. 
+Ans. 
+
+Q8. If K is a 2x3 matrix and L is a 3x2 matrix, what is the order of KL?
+Ans. 
+
