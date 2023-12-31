@@ -61,5 +61,16 @@ Q7.
 Ans. 
 
 Q8. If K is a 2x3 matrix and L is a 3x2 matrix, what is the order of KL?
-Ans. 
+Ans. The product of two matrices, say K (mxn) and L(nxp), has an order
+determined by the dimensions of the matrices involved. In this case:
+	Matrix K is a 2x3 matrix (mxn).
+	Matrix L is a 3x2 matrix (nxp).
+The number of columns in the first matrix (K) must be equal to the number 
+of rows in the second matrix (L) for the product to be defined.
+
+In this scenario, the number of columns in K(3) is equal to the number of 
+rows in L(3). Therefore, the product KL is defined, and its resulting matrix 
+will have dimensions 2x2.
+
+So, the oreder of KL is 2x2.
 
